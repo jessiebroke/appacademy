@@ -1,0 +1,67 @@
+Introduction Notes:
+
+Ruby is a high level object-oriented programming language.
+
+Ruby abstracts away memory management.
+
+Objects are classified into
+ -data types
+	Primitive Data Types
+	-numbers (mathematical operations differ based on operands)
+		-int
+		-float
+	-strings (text surrounded in "" quotes)
+	-symbols (_ , :sym, :im_a_symbol | not symbols: :1,  i'm_a_symbol is not a symbol)
+	-booleans (true/false)
+	-nil (represents nothingness)
+
+Boolean - An object that represents a logical truth value: true and false.
+Data Type - A classification of an object that determines its possible values and methods.
+Floating Point Number - A number with a decimal point.
+High-Level Programming Language - A programming language with ample abstraction from the details of the hardware.
+Integer - A number without a decimal point.
+Method - A procedure associated with an object; methods are the "verbs" of the language.
+Nil - A one-of-a-kind object that represents a lack of data: nil.
+Object - Ruby's representation of data; objects are the "nouns" of the language.
+Programming Language - A formal computer language designed to communicate instructions to a machine.
+String - A sequence of characters enclosed in quotation marks; Ruby's representation of text.
+Symbol - An immutable data type unique in memory that's similar to a string.
+
+Your First Program Notes:
+
+stack trace: a list of code location whence an error originates.
+
+Variables Notes:
+
+Variable names should be written in snake case, i.e., with all lowercase letters and with underscores replacing spaces (e.g., my_snake_case_variable).
+Variable names cannot have special characters (e.g., *, ", [, !, ?, ,).
+Variable names cannot be one of the following Ruby keywords, which are reserved for special purposes:
+__FILE__  and    def       end     in      or      self   unless
+__LINE__  begin  defined?  ensure  module  redo    super  until
+BEGIN     break  do        false   next    rescue  then   when
+END       case   else      for     nil     retry   true   while
+alias     class  elsif     if      not     return  undef  yield
+
+In Ruby, anything following a # is a comment. An enclosing =begin and =end create multiline comments.
+
+Snake Case - The practice of writing compound words or phrases in lowercase and connected by underscores rather than spaces.
+Variable - A label that refers to a value stored in memory.
+Variable Assignment - The assignment of a variable name to a value.
+
+Method Notes
+Argument - The input of a method. An argument is passed to a method within parentheses. Commas separate multiple arguments.
+Context - The set of variables and methods available to a given part of a program.
+Helper Method - A method that helps another method perform its task by managing a subtask.
+Method - A group of expressions that returns a value; the "verbs" of Ruby.
+Method Body - The code between the def statement and end in a method definition; the subroutine that the method definition encapsulates.
+Method Definition - The assignment of a subroutine to a name that can be invoked.
+Method Invocation - A call to the Ruby interpreter to execute a method.
+Parameter - A variable declared upon method definition that represents an argument passed in to a method upon invocation.
+Receiver - The object upon which the method is called.
+Return Value - The output of a method; the value to which the method evaluates.
+Subroutine - A set of instructions that perform a specific operation.
+Scope - The visibility of variables and methods defined in one part of a program to another part of a program.
+Scope Gate - An entrance to a new scope.
+Separation of Concerns - The principle of separating a program into distinct sections that each address a specific concern.
+return - A Ruby keyword that immediately returns the value of the subsequent expression.
+Unreachable Code - Code that can never be executed.
